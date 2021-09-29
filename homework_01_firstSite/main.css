@@ -1,0 +1,103 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+    text-decoration: underline;
+    color: #5fbbda;
+}
+
+
+.container {
+    /* width: 1200px; */
+    margin: 0 auto;
+}
+
+header {
+    background-color: #009a58;
+    color: #FFF;
+    padding: 1px 15px;
+
+}
+
+main {
+    margin-top: 10px;
+    display: flex;
+
+}
+
+.filters {
+    width: 25%;
+    padding: 15px;
+    background-color: #f2f2f2;
+}
+
+.filters div {
+    margin-top: 3px;
+    margin-left: 15px;
+}
+
+.fish {
+    width: 100%;
+    margin-left: 10px;
+}
+
+.fish__marketing-card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.fish__marketing-card {
+    margin-top: 10px;
+    padding: 10px;
+    display: inline-block;
+    width: 47%;
+    background-color: #f2f2f2;
+    color: #86817e;
+
+}
+
+.fish__products-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fish__products-link {
+    display: flex;
+    padding: 10px;
+    margin-top: 10px;
+    width: 30%;
+    background: #f2f2f2;
+}
+
+.fish__products-link-square {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: #c2c2c2;
+}
+
+.fish__products-link-title {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.fish__products-link button {
+    padding: 3px;
+    background-color: #cccccc;
+    border: none;
+    outline: none;
+}
+
+footer {
+    color: #86817e;
+    background-color: #f2f2f2;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
